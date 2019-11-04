@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="72dp"
         android:layout_gravity="bottom"
+        android:theme="@style/AppTheme.BottomNav"
         app:itemIconTint="@drawable/nav_item_color_state"
         app:itemTextColor="@drawable/nav_item_color_state" />
 
@@ -25,7 +26,6 @@
         android:elevation="2dp"
         android:focusable="true"
         android:src="@drawable/ic_bottom_camera"
-        android:theme="@style/AppThemeFab"
         app:borderWidth="0dp"
         app:ensureMinTouchTargetSize="true"
         app:fabCustomSize="85dp"

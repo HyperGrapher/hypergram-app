@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Instaroid</string>
-    <string name="bottom_nav_favorite">Favorite</string>
+    <string name="bottom_nav_profile">Profile</string>
     <string name="bottom_nav_home">Home</string>
 </resources>
