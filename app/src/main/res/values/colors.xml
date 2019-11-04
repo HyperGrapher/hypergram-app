@@ -4,7 +4,8 @@
     <color name="colorPrimaryDark">#292a35</color>
     <color name="colorAccent">#f79b4b</color>
 
-    <color name="colorPrimaryLight">#50525f</color>
+    <color name="colorPrimaryRipple">#00FFFFFF</color>
+    <color name="colorPrimaryLight">#595C6F</color>
     <color name="white">#ffffff</color>
     <color name="blue">#5369da</color>
     <color name="red">#eb5b42</color>

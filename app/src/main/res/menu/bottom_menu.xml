@@ -5,17 +5,17 @@
         android:id="@+id/action_home"
         android:enabled="true"
         android:icon="@drawable/ic_bottom_home"
-        android:title="Home"
+        android:title="@string/bottom_nav_home"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/action_camera"
-        android:enabled="true"
-        android:title="Camera"
-        app:showAsAction="ifRoom"/>
+        android:enabled="false"
+        android:title=""
+        app:showAsAction="never"/>
     <item
         android:id="@+id/action_favorite"
         android:enabled="true"
         android:icon="@drawable/ic_bottom_favorite"
-        android:title="Favorite"
+        android:title="@string/bottom_nav_favorite"
         app:showAsAction="ifRoom"/>
 </menu>
