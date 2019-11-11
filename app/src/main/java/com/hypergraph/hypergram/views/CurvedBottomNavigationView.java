@@ -1,4 +1,4 @@
-package com.modernkod.instaroid.views;
+package com.hypergraph.hypergram.views;
 
 import android.content.Context;
 import android.graphics.Canvas;

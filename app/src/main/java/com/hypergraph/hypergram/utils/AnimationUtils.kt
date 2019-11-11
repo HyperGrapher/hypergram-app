@@ -1,4 +1,4 @@
-package com.modernkod.instaroid.utils
+package com.hypergraph.hypergram.utils
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter

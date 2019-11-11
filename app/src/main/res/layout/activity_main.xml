@@ -7,56 +7,6 @@
     tools:context=".MainActivity">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-
-        <View
-            android:id="@+id/v1"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_margin="24dp"
-            android:alpha="0"
-            android:background="@color/colorPrimary" />
-
-
-        <View
-            android:id="@+id/v2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_margin="24dp"
-            android:alpha="0"
-            android:background="@color/colorPrimary" />
-
-        <View
-            android:id="@+id/v3"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_margin="24dp"
-            android:alpha="0"
-            android:background="@color/colorPrimary" />
-
-
-        <View
-            android:id="@+id/v4"
-            android:layout_width="50dp"
-
-            android:layout_height="50dp"
-            android:layout_margin="24dp"
-            android:alpha="0"
-
-            android:background="@color/colorPrimary" />
-
-
-    </LinearLayout>
-
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabMain"
         android:layout_width="wrap_content"
@@ -77,7 +27,7 @@
         app:maxImageSize="45dp" />
 
 
-    <com.modernkod.instaroid.views.CurvedBottomNavigationView
+    <com.hypergraph.hypergram.views.CurvedBottomNavigationView
         android:id="@+id/bottomNavBar"
         android:layout_width="match_parent"
         android:layout_height="72dp"
