@@ -12,6 +12,7 @@ import android.view.animation.DecelerateInterpolator
 import androidx.core.animation.doOnEnd
 import androidx.core.view.ViewCompat
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.hypergraph.hypergram.views.CurvedBottomNavigationView
 import io.reactivex.Completable
 import io.reactivex.subjects.CompletableSubject
 
@@ -68,6 +69,25 @@ fun View.flipIt() {
         }
     })
     oa1.start()
+
+}
+
+
+/**
+ *  Hide or show animation for curvedBottomNav by animating translationY
+ *  Animation accelerates or decelerates according to the state of nav bar
+ */
+
+fun CurvedBottomNavigationView.moveIt(value: Float, hidden: Boolean) {
+
+    val animator = ObjectAnimator.ofFloat(this, "translationY", value)
+    animator.interpolator =
+        if (hidden) DecelerateInterpolator() else AccelerateDecelerateInterpolator()
+    animator.duration = 550
+
+    animator.addListener(object : AnimatorListenerAdapter() {
+    })
+    animator.start()
 
 }
 
